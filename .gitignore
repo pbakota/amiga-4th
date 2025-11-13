@@ -1,0 +1,3 @@
+*.o
+rom/
+AMIGA_ROOT/

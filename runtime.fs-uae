@@ -1,0 +1,35 @@
+[config]
+console_debugger = 1
+amiga_model = A500
+cpu = 68000
+uae_cpu_speed = real
+uae_chipset = ecs
+bsdsocket_library = 0
+accuracy = 1
+floppy_drive_speed = 100
+chip_memory = 1024
+slow_memory = 0
+fast_memory = 4096
+audio_frequency = 48000
+window_width = 800
+window_height = 600
+kickstarts_dir = $CONFIG
+kickstart_file = $CONFIG/rom/kickstart_v2.04.rom
+;kickstart_file = $CONFIG/rom/kickstart_v1.3.rom
+hard_drive_0 = $CONFIG/AMIGA_ROOT
+hard_drive_0_label = AMIGA
+; display
+keep_aspect = 1
+scale_x = 1
+scale_y = 1
+; zoom = 704×540
+zoom = full
+texture_filter = nearest
+uaem_write_flags = 0
+floppy_drive_volume = 0
+;loppy_drive_0 =
+
+; -- REMOTE DEBUGGER --
+remote_debugger=200
+use_remote_debugger=true
+automatic_input_grab=0
